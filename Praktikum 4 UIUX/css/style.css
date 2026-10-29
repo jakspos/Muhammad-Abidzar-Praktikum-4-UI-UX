@@ -1,0 +1,155 @@
+body {
+    background-color: #F5F5DD;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+    color: #0f172a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#header {
+    background-color: #DDB88B;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #AAD5FA;
+    border-radius: 8px;
+}
+
+#header h1 {
+    margin-top: 0;
+    color: #25149E;
+    font-size: 24px;
+}
+
+#header blockquote {
+    background-color: #EFD41B;
+    padding: 12px 20px;
+    border: 1px dotted #0284c7;
+    margin: 15px auto 0;
+    max-width: 75%;
+    font-size: 14px;
+    color: #2F1C07;
+}
+
+#nav {
+    ul {
+        list-style-type: none;
+        text-align: center;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+        margin: 0 12px;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 600;
+        color: #54415A;
+    }
+}
+
+.gambar {
+    text-align: center;
+}
+
+.gambar img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin: 0 10px;
+    border: 2px solid #0f172a;
+    border-radius: 8px;
+}
+
+.isi p:first-child::first-letter {
+    font-weight: 500;
+    font-size: 40px;
+    color: #25149E;
+    float: left;
+    line-height: 0.3;
+    padding-right: 4px;
+}
+
+#profil {
+
+    h3 {
+        text-align: center;
+        color: #4A3728;
+        margin-top: 30px;
+    }
+
+    li {
+        color: #2B2927;
+    }
+}
+
+#beternak {
+
+    h3 {
+        text-align: center;
+        color: #4A3728;
+        margin-top: 30px;
+    }
+
+    p {
+        color: #2B2927;
+    }
+
+    .ternak1 h4 {
+        color: #4A3728;
+        margin: 0 0 -10px 0
+    }
+
+    .ternak2 h4 {
+        color: #4A3728;
+        margin: 0 0 -10px 0
+    }
+}
+
+.koleksi {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+    img {
+        height: 230px;
+        width: 230px;
+        border: 2px solid #0f172a;
+        border-radius: 8px;
+        object-fit: cover;
+
+    }
+}
+
+.promo {
+    background-color: #ffffff;
+    border: 2px dashed #2F1C07;
+    border-radius: 8px;
+    color: red;
+    max-width: 800px;
+    text-align: center;
+    margin: 30px auto;
+
+    ol {
+        list-style: none;
+        gap: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+
+
+#tombol {
+    background-color: rgb(213 213 23);
+    color: red;
+    border-color: #eee;
+}
